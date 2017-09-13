@@ -1,5 +1,12 @@
-console.log('Webpack Simple Server')
-let coverEl = document.querySelector('.starter')
-let h2El = document.querySelector('h2.starter-txt')
-coverEl.className += ' loaded'
-h2El.textContent = 'Build: Webpack Simple Server'
+
+const appContainer = document.querySelector('#app-container')
+appContainer.innerHTML =  `
+    <div class="page page--home">
+      <div class="page__inner-container">
+        <h1>
+          Routing Time!
+        </h1>
+      </div>
+    </div>
+
+`
