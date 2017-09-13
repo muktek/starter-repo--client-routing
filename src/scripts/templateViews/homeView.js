@@ -10,9 +10,9 @@ const renderHomeView = function(){
           Try these routes!
         </h3>
         <ul>
-          <li>/cv</li>
-          <li>/friends</li>
-          <li>/friends/:nat</li>
+          <li><a href="#/cv">/cv</a></li>
+          <li><a href="#/friends">/friends</a></li>
+          <li><a href="#/friends/GB">/friends/:nat</a> (example /friends/GB)</li>
         </ul>
       </div>
     </div>
